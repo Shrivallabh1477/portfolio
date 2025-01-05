@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .contact-header {
+            background: linear-gradient(45deg, #6c63ff, #457efa);
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .contact-header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .form-container {
+            margin-top: -50px;
+            padding: 30px;
+            background: white;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .btn-custom {
+            background: #457efa;
+            color: white;
+            border: none;
+        }
+
+        .btn-custom:hover {
+            background: #6c63ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact-header">
+        <h1>Contact Me</h1>
+        <p>I'd love to hear from you. Reach out for collaboration or inquiries!</p>
+    </div>
+
+    <div class="container form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" rows="5" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom btn-block">Send Message</button>
+        </form>
+    </div>
+</body>
+
+</html>
